@@ -1,0 +1,7 @@
+<p>This mail has been sent to you because someone has requested to reset your password on Website Recovery Service</p>
+<p>If you got this email due an error, just ignore it.</p>
+<p>if you wish to continue, click on the link below, or copy the URL and paste it into your browser.</p>
+<br><br>
+<strong>link:</strong> <a href='%token%' >%token%</a>
+<br><br>
+<p>This link will expire in %tkv% minutes</p>
