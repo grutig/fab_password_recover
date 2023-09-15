@@ -1,0 +1,13 @@
+MAIL_SERVER = <server>
+MAIL_PORT = <port>
+MAIL_USE_TLS = True
+MAIL_USE_SSL = False
+MAIL_DEBUG = False
+MAIL_USERNAME = <mail username>
+MAIL_PASSWORD = <mail pass>
+MAIL_DEFAULT_SENDER = ("<sender name>", "<sender address>")
+MAIL_MAX_EMAILS = 10
+MAIL_SUPPRESS_SEND = False
+PUBLIC_URL = <web site public url>
+TOKEN_VALIDITY = <token validity>  # minutes
+SUPPORT_EMAIL = <support email>`
