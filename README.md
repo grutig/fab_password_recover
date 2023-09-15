@@ -10,7 +10,7 @@ How to setup:
     `from app import passrec`
    at the end of __init__.py
 3) append `config.append.py` to `config.py` and set correct values
-5) place all the template files in `templaes/appbuilder/general/security` directory.
+5) copy all the template files in `templates` directory.
 
 done
 
