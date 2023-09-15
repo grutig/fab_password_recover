@@ -14,9 +14,14 @@ How to setup:
 
 done
 
-It overrides the default login_db template, showing a link to request user password change. If selected it prompts for the user's own email.
-If email if valid and registered in database, it sends it a message with a link, valid for TOKEN VALIDITY minutes, as specified in config.py
-During that time interval, it will not accept further requests for the same email.
-If the user follows that link, it is prompted for a new password, that - if validated - will replace that one stored in db.
-The validation is done, as is, just on lenght, but it easy to enforce more strict rules.
+It overrides the default login_db template, showing a link to request user password change.
 
+If selected it prompts for the user's own email.
+
+If email if valid and registered in database, it sends it a message with a link, valid for TOKEN VALIDITY minutes, as specified in config.py
+
+During that time interval, it will not accept further requests for the same email.
+
+If the user follows that link, it is prompted for a new password, that - if validated - will replace that one stored in db.
+
+The validation is done, as is, just on lenght, but it easy to enforce more strict rules.
