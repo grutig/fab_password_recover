@@ -1,0 +1,18 @@
+{% extends "appbuilder/base.html" %}
+
+{% block content %}
+    <br>
+    <br>
+<h2 style="text-align: justify;">Email sent</h2>
+     <br>
+     <br>
+     <p style="text-align: justify;">An email with instructions on how to continue the password recovery has been sent, and should arrive in a few seconds.</p>
+     <br>
+     <p style="text-align: justify;">If you do not receive it, please check your SPAM or junk mail box.</p>
+     <br>
+     <p style="text-align: justify;">The confirmation link is valid {{ tkv }} minutes.</p>
+     <br>
+     <p style="text-align: justify;">For any assistance you can contact us at <a href="mailto:{{ config['SUPPORT_EMAIL'] }}"></a>{{ config['SUPPORT_EMAIL'] }}</p>
+     <br>
+     <p style="text-align: justify;">Thank you!</p>
+{% endblock %}
