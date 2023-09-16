@@ -62,7 +62,7 @@ class PwrrForm(FlaskForm):
 
 class NewPwForm(FlaskForm):
     password = PasswordField('Password', validators=[InputRequired(), Length(min=8, max=32)])
-    confirm = PasswordField('Confirm Password', [InputRequired(), Length(min=8, max=32), EqualTo('password')])
+    confirm = PasswordField('Confirm Password', validators=[InputRequired(), Length(min=8, max=32), EqualTo('password')])
 
 #  Views ##########################################
 
